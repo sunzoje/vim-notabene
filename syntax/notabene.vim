@@ -36,7 +36,7 @@ syn match nbArgs /\v\s{1}-[a-zA-Z0-9]+((\s|;)@=|$)/
 syn match nbArgs /\v\s{1}--[a-z-]*((\s|;)@=|$)/
 hi def link nbArgs Constant
 
-syn match nbList /\v^(\d\.|\+|\*)/  
+syn match nbList /\v^\s*(\d\.|\+|\*)/  
 hi def link nbList Comment
 
 syn match nbEmail "[a-zA-Z0-9._-]\+@[a-zA-Z0-9./-]\+"
